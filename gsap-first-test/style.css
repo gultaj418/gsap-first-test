@@ -1,0 +1,50 @@
+.hero {
+  width: 200px;
+  height: 200px;
+  /* margin: 20px 0 0 30px; */
+}
+
+.astranaut {
+  width: 200px;
+  height: 200px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+progress {
+  border-radius: 7px;
+  width: 80%;
+  height: 22px;
+  margin-left: -11.5%;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+progress::-webkit-progress-bar {
+  background-color: yellow;
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background-color: blue;
+  border-radius: 7px;
+  box-shadow: 1px 1px 5px 3px rgba(255, 0, 0, 0.8);
+}
